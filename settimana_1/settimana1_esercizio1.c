@@ -3,6 +3,14 @@
 #include <limits.h>
 #include <float.h>
 /*
+ESERCIZIO 1
+
+Scrivere un programma C che dichiari una variabile per ogni tipo studiato (usando anche i qualificatori short, long, signed e unsigned),
+ne stampi il valore e l’occupazione di memoria in byte. Utilizzare TUTTI gli argomenti della funzione printf() studiati e TUTTE le diverse varianti
+(modificatore, campoMinimo, precisione, modificatoreLunghezza). Per ogni chiamata alla funzione printf(), mostrare a video anche il numero di caratteri
+che quest’ultima ha stampato (Aiuto: la funzione printf() restituisce un valore). Stampare inoltre il valore minimo e il valore massimo ammissibile per ogni tipo utilizzato.
+*/
+/*
 Autore = Casini Lorenzo
 Pregetto = Esercizio1
 Versione = 1.1
@@ -75,7 +83,7 @@ int main()
      // creazione di un separatore
     printf("--------------------------------------------------------------------------------------------------------------\n");
 
-     //stampo il valore unsigned char,stesso cosa del char sopra ma essendo unsigned il valore minimo � 0
+     //stampo il valore unsigned char,stesso cosa del char sopra ma essendo unsigned il valore minimo � 0
     numero_caratteri=printf (" Type : %-9s Min : %-20d Max : %-20d Bytes : %d\n "," unsigned char ",0, UCHAR_MAX ,sizeof ( unsigned char ));
     printf("Numero Caratteri Stampati :%d \n Valore Variabile: %c\n",numero_caratteri,carattere_no_segno);
 

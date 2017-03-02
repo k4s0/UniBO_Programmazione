@@ -2,6 +2,14 @@
 Autore:Casini Lorenzo
 versione 2.1.3
 */
+/*
+ESERCIZIO 2
+
+Predisporre una libreria di gestione del tipo di dato astratto PILA e del tipo di dato astratto CODA implementati tramite allocazione indicizzata,
+tramite strutture collegate e sfruttando la libreria scritta sulle liste. Le funzioni che, come minimo, dovranno essere implementate sono: push, pop,
+ed empty per la pila e inserisci in coda, estrai dalla coda, coda vuota per la coda. Il programma deve visualizzare lo stato della coda o della
+pila ad inizio esecuzione (vuota) e dopo ogni operazione scelta dall'utente, come nell'esercizio precedente.
+*/
 #include"Liste.h"
 #include<stdio.h>
 #include<stdlib.h>

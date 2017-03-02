@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 /*
+ESERCIZIO 2
+
+Scrivere un programma C che usi TUTTI gli operatori studiati; stampare i valori delle variabili usate prima e dopo l’applicazione degli stessi.
+*/
+/*
 Autore = Casini Lorenzo
 Pregetto = Esercizio2
 Versione = 1.2.1

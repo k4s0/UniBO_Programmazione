@@ -3,9 +3,15 @@ Autore: Lorenzo Casini
 Versione:1.0
 Data Inizio:27/10/2016
 Modifica:27/10/2016
-
 */
+/*
+ESERCIZIO 1
 
+Scrivere un programma C che, preso in ingresso un valore intero n,
+ne effettui la conversione nel corrispondente numero binario e lo memorizzi in un vettore.
+Se si decide di effettuare limitazioni al valore di ingresso n, assicurarsi che le stesse siano
+gestite a livello di programma. Corredare il programma degli opportuni commenti.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <limits.h>
@@ -39,7 +45,7 @@ int main()
 
                 conta++;//variabile per contare i campi usati nell'array
 
-                risultato=valore/2;//divido per 2 il numero 
+                risultato=valore/2;//divido per 2 il numero
 
                 if(valore%2==0){//controllo il resto della divisione e scrivo 0 se senza resto 1 se c'e' il resto
                     binario[i]=0;

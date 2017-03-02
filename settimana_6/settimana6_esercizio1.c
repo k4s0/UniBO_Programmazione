@@ -5,7 +5,13 @@ Inizio:17/11/16
 Modifica:17/11/16
 Versione: 1.0
 */
+/*
+ESERCIZIO 1
 
+Scrivere un programma C che permetta di lavorare con un certo numero di
+variabili di tipo scelto dal programmatore e altrettante di tipo puntatore.
+Le seconde dovranno puntare alle prime. Gestire l’inizializzazione delle prime e tramite le seconde stamparne il valore.
+*/
 int main(){
     int intero=5;
     char carattere='c';
@@ -30,5 +36,3 @@ int main(){
     printf("Il puntatore a double vale==> %f\n",*pvirgola2);
     return 0;
 }
-
-

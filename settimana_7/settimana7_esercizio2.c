@@ -4,7 +4,14 @@ Inizio 30/11/16
 Modifica : 30/11/16
 Versione: 1.0
 */
+/*
+ESERCIZIO 2
 
+Modificare il programma dell'esercizio 1 in modo che il vettore di studenti venga allocato dinamicamente e
+successivamente riallocato al suo riempimento. Inizialmente usare la funzione malloc() per allocare lo spazio sufficiente per un
+vettore di 10 strutture studente, Quando il vettore non ha più spazio per contenere nuovi studenti, utilizzare la funzione realloc()
+per raddoppiare la sua dimensione. Ripetere il raddoppio delle dimensioni ogni volta che il vettore si riempe.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>

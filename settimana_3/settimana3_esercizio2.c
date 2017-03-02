@@ -4,7 +4,24 @@ Inzio:19/10/2016
 Aggiornamento:23/10/2016
 Versione: 2.1
 */
+/*
+ESERCIZIO 2
 
+Scrivere un programma C che, preso in input un valore numero_studenti, permetta l’inserimento da tastiera del voto di ciascuno degli studenti e
+ne calcoli la media utilizzando sia il costrutto for che il costrutto while. Visualizzare poi un commento in base al voto medio della classe come mostrato in tabella:
+
+< 6: MEDIA INSUFFICIENTE
+
+6-7: MEDIA SUFFICIENTE
+
+7-8: MEDIA DISCRETA
+
+8-9: MEDIA BUONA
+
+9-10: MEDIA OTTIMA
+
+Inserire nel codice il controllo sull’input dell’utente.
+*/
 #include <stdio.h>
 
 int main ()

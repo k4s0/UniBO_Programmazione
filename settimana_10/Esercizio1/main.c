@@ -4,7 +4,51 @@ Versione 1.0
 Data Inizio: 26/12/2016
 Es: 1
 */
+/*
+Predisporre una libreria di gestione del tipo di dato astratto LISTA, implementato sia tramite allocazione indicizzata
+(vettore statico e vettore dinamico) che tramite strutture collegate. Le funzioni che, come minimo,
+dovranno essere implementate sono: inserisci in testa, inserisci in coda, inserisci dopo un certo elemento,
+cancella dalla testa, cancella dalla coda, cancella la prima occorrenza dell’elemento.
+Il programma deve visualizzare lo stato della lista ad inizio esecuzione (vuota) e dopo ogni operazione scelta dall'utente. Ad esempio:
 
+lista: vuota
+
+inserisci in testa elemento 5
+
+lista: 5
+
+inserisci in testa elemento 12
+
+lista: 12 5
+
+inserisci in coda elemento 21
+
+lista: 12 5 21
+
+inserisci in testa elemento 9
+
+lista: 9 12 5 21
+
+togli dalla testa
+
+lista: 12 5 21
+
+togli dalla coda
+
+lista: 12 5
+
+inserisci dopo elemento 12 l'elemento 8
+
+lista: 12 8 5
+
+inserisci dopo elemento 8 l'elemento 4
+
+lista: 12 8 4 5
+
+cancella prima occorrenza dell'elemento 8
+
+lista: 12 4 5
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <malloc.h>

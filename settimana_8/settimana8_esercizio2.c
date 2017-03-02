@@ -4,7 +4,11 @@ Inizio 30/11/16
 Modifica : 30/11/16
 Versione: 1.2
 */
+/*
+ESERCIZIO 2
 
+Modificare l'esercizio 2 della settimana 7 organizzando opportunamente il codice in funzioni.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>

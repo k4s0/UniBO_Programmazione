@@ -6,6 +6,13 @@ Versione:1.1
 Data Inizio:19/10/2016
 Ultimo Aggiornamento:19/10/2016
 */
+/*
+ESERCIZIO 1
+
+Scrivere un programma C che, preso in input un valore riga e un valore colonna, stampi a video la tavola pitagorica della moltiplicazione e quella dell’addizione,
+utilizzando una volta il costrutto for e una volta il costrutto while (quindi sia for che while per la somma, sia for che while per la moltiplicazione).
+Inserire nel codice il controllo sull’input dell’utente.
+*/
 
 int main()
 {

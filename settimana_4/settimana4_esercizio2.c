@@ -3,7 +3,15 @@ Autore:Casini Lorenzo
 Riconsegna programma appuntamento
 Versione : 2.0
 */
+/*
+ESERCIZIO 2
 
+Due colleghi intendono fissare una riunione, pertanto devono identificare i giorni nei quali sono entrambi liberi da impegni.
+A tale scopo, si realizzi un programma C che permetta a ciascuno di immettere le proprie disponibilità, e che identifichi i
+giorni nei quali entrambi sono liberi. In particolare, in una prima fase il programma deve acquisire un elenco di numeri interi
+che indicano i giorni del mese in cui essi sono disponibili e nella seconda fase il programma deve identificare e stampare i giorni
+in cui entrambi i colleghi sono disponibili. Corredare il programma degli opportuni commenti.
+*/
 #include <stdio.h>
 #include <ctype.h>
 int main ()

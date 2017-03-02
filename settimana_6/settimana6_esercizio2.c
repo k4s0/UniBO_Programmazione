@@ -8,6 +8,11 @@ Inizio:17/11/16
 Modifica:17/11/16
 Versione: 1.0.1
 */
+/*
+ESERCIZIO 2
+
+Scrivere un programma C che legga una stringa immessa dall'utente e la visualizzi dopo aver rimosso dalla stessa tutti gli spazi e i segni di punteggiatura. Tutte le operazioni devono usare puntatori.
+*/
 int main(void)
 {
     char ch=(char*)malloc((1) * sizeof(char));

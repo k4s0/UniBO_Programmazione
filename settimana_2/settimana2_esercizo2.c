@@ -9,20 +9,10 @@ Data Inizio = 06/10/2016
 Data Aggiornamneto = 16/10/2016
 */
 
-
 /*
-Integrare l'esercizio sugli operatori della prima settimana aggiungendo tutti quelli visti a lezione. 
+Integrare l'esercizio sugli operatori della prima settimana aggiungendo tutti quelli visti a lezione.
 Il programma complessivo dovrà quindi contenere: sizeof, cast, <, <=, >, >=, ==, !=, !, &&, ||, &, |, ^, ~, <<, >>, ?:, =, +=, -=, *=, /=
 */
-/*
-
-
-                HO SCRITTO E COMPILATO SU LINUX ATTENZIONE A CHI CORREGGE LO SLEEP IN LINUX SI INDICA IN SECONDI MENTRE SU WINZOZ SI INDICA IN MILLISECONDI 
-                PER UNA CORRETTA VISUALIZZAZIONE SU WINZOZ SETTARE GLI SLEEP A 3000 ANZICHE' 3 .   GRAZIE
-
-
-*/
-
 int main()
 {
     //dichiarazione delle variabile da utilizzare
@@ -214,7 +204,7 @@ int main()
 	b=10;
 	//stampo il loro valore
     printf("La variabile  a = %d mentre la variabile b = %d, a<b?\n",a,b);
-    
+
     if(a<b){
 		printf("questa istruzione non verrà eseguita\n");
 	}else{
@@ -222,7 +212,7 @@ int main()
 	}
 	sleep(3);
 	printf("----------------------------------------------------------------------------\n");
-	
+
     printf("Operatore >\n");
 
     //assegno nuovi valori
@@ -230,7 +220,7 @@ int main()
 	b=10;
 	//stampo il loro valore
     printf("La variabile  a = %d mentre la variabile b = %d, a>b?\n",a,b);
-    
+
     if(a>b){
 		printf("la variabile a e' piu' grande della variabile b\n");
 	}else{
@@ -238,7 +228,7 @@ int main()
 	}
 	sleep(3);
 	printf("----------------------------------------------------------------------------\n");
-	
+
     printf("Operatore <=\n");
 
     //assegno nuovi valori
@@ -246,7 +236,7 @@ int main()
 	b=10;
 	//stampo il loro valore
     printf("La variabile  a = %d mentre la variabile b = %d, a<=b?\n",a,b);
-    
+
     if(a<=b){
 		printf("questa istruzione e' eseguita grazie al <=\n");
 	}else{
@@ -254,7 +244,7 @@ int main()
 	}
 	sleep(3);
 	printf("----------------------------------------------------------------------------\n");
-	
+
     printf("Operatore >=\n");
 
     //assegno nuovi valori
@@ -262,7 +252,7 @@ int main()
 	b=10;
 	//stampo il loro valore
     printf("La variabile  a = %d mentre la variabile b = %d, a>=b?\n",a,b);
-    
+
     if(a>=b){
 		printf("la variabile a ha un valore maggiore o \n uguale a b quindi vedi questo messaggio\n");
 	}else{
@@ -270,7 +260,7 @@ int main()
 	}
 	sleep(3);
 	printf("----------------------------------------------------------------------------\n");
-	
+
     printf("Operatore ==\n");
 
     //assegno nuovi valori
@@ -278,7 +268,7 @@ int main()
 	b=90;
 	//stampo il loro valore
     printf("La variabile  a = %d mentre la variabile b = %d, a==b?\n",a,b);
-    
+
     if(a==b){
 		printf("si le variabili sono uguali\n");
 	}else{
@@ -286,7 +276,7 @@ int main()
 	}
 	sleep(3);
 	printf("----------------------------------------------------------------------------\n");
-	
+
     printf("Operatore !=\n");
 
     //assegno nuovi valori
@@ -294,7 +284,7 @@ int main()
 	b=90;
 	//stampo il loro valore
     printf("La variabile  a = %d mentre la variabile b = %d, a!=b?\n",a,b);
-    
+
     if(a!=b){
 		printf("si le variabili sono diverse\n");
 	}else{
@@ -302,7 +292,7 @@ int main()
 	}
 	sleep(3);
 	printf("----------------------------------------------------------------------------\n");
-	
+
     printf("Operatore logici\n");
 
     int m=40,n=20;
@@ -321,7 +311,7 @@ int main()
    }
    sleep(3);
    	printf("----------------------------------------------------------------------------\n");
-	
+
     printf("Operatore bit-wise\n");
 
 	m = 40,n = 80;
@@ -329,8 +319,8 @@ int main()
 	//m=00101000
 	//n=01010000
 	//bisogna convertire in binario per capire i risultati ottenuti
-	
-	
+
+
 	int AND_operatore=0,OR_operatore=0,XOR_operatore=0,NOT_operatore=0;//dischiaro le variabile per utilizzare gli operatori bit-wise
 	AND_operatore = (m&n);//m&n = 00000000 (binario) = 0 (decimale)
 	OR_operatore = (m|n);//m|n = 01111000 (binario) = 120 (decimale)
@@ -344,18 +334,18 @@ int main()
 	printf("con lo spostamento a destra m vale  = %d\n", m >> 1);//spostamento a destra di una posizione x >> 1 = 00010100 (binario) = 20 (decimale)
 	sleep(3);
     printf("----------------------------------------------------------------------------\n");
-	
+
     printf("Utilizzo di sizeof() e cast\n");
 
 	float c;//dichiaro la varibile per il sizeof()
 	int alfa=65;//dischiaro la variabile per il cast
-	
-	
+
+
 	printf("Spazio utilizzato dal tipo float: %d \n",sizeof(c));//eseguo il sizeof del loat per vedere la memoria che occupa
-	
-	printf("La variabile alfa vale: %d mentre se utilizziamo il cast vale: %c",alfa,(char)alfa);//visualizzo prima il valore int della variabile che è 65 
+
+	printf("La variabile alfa vale: %d mentre se utilizziamo il cast vale: %c",alfa,(char)alfa);//visualizzo prima il valore int della variabile che è 65
 																								// poi ne faccio il cast in char e visualizzo la lettera A
-	
+
 
 
     return 0;
